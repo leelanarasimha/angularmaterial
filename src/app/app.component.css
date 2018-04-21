@@ -6,15 +6,5 @@ mat-sidenav {
     width: 250px;
 }
 
-.navigation-items {
-    list-style: none;
-}
 
-a {
-    color: white;
-    text-decoration: none;
-}
 
-a:hover, a:active {
-    color: lightgray;
-}
