@@ -21,6 +21,7 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
 import { PastTrainingsComponent } from './training/past-trainings/past-trainings.component';
 import { CurrentTrainingComponent } from './training/current-training/current-training.component';
 import { StopTrainingDialogComponent } from './training/current-training/stop-training-dialog/stop-training-dialog.component';
+import { AuthService } from './auth/auth.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,9 @@ import { StopTrainingDialogComponent } from './training/current-training/stop-tr
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    AuthService
+  ],
 
   bootstrap: [AppComponent],
   entryComponents: [StopTrainingDialogComponent]
