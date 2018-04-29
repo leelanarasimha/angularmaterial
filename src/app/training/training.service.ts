@@ -40,4 +40,9 @@ export class TrainingService {
         this.exerciseChange.next(null);
     }
 
+    getCompletedandCancelledExercise() {
+        return this.exercises.slice();
+
+    }
+
 }
